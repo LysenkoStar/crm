@@ -113,4 +113,13 @@
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
+  <component name="PhpRuntimeConfiguration">
+    <extensions>
+      <extension name="Parle" enabled="true" />
+      <extension name="mapscript" enabled="true" />
+      <extension name="solr" enabled="true" />
+      <extension name="sync" enabled="true" />
+      <extension name="yaf" enabled="true" />
+    </extensions>
+  </component>
 </project>

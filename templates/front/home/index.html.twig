@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Somethings{% endblock %}
+
+{#      Styles    #}
+{% block stylesheets %}
+    {{ parent() }}
+    <link rel="stylesheet" type="text/css" href="public/build/front.css"/>
+{% endblock %}
+
+{#      Main content      #}
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                321321
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{#  Scripts   #}
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/javascript" src="public/build/front.js"></script>
+{% endblock %}
